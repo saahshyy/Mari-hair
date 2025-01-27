@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <style>
+body{
+	background-color: #D29DF5;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 9px 10px;
+  overflow: hidden;
+  background-color: #830EF0;
+  font-size: 120%;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #B359F0;
+  color: white;
+}
+form{
+  padding: 100px;
+  margin: 50px 60px 50px 50px;
+  background-position: center;
+  text-align: center;
+  font-size:100%;
+  background-image: url(imagem/fundo1.png);
+}
+#icon{
+  margin-top: 10px;
+  margin-left: 27px;
+  margin-bottom: 5px;
+}
+#icon2{
+  margin-top: 5px;
+  margin-left: 15px;
+
+}
+#icon3{
+  margin-top: 10px;
+  margin-left: 200px;
+}
+div.rodape{
+  margin-top: 250px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #f55d9c;
+  bottom: 0;
+  position: sticky;
+  
+}
+#rod{
+  font-size:20px;
+
+}
+
+@media screen and (max-width: 800px){
+form{
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align:center;
+}
+
+div.rodape{
+  background-color: #f55d9c;
+  z-index:1;
+
+}
+
+#icon{
+   width:30%;
+   margin-left:35%;
+   margin-right:35%;
+   
+}
+#icon2{
+   width:30%;
+   margin-left:35%;
+   margin-right:35%;
+}
+#icon3{
+   width:30%;
+   margin-left:35%;
+   margin-right:35%;
+   
+}
+div.col-sm-2 h6{
+  text-align:center;
+  font-size:100%;
+}
+div.col-sm-8 p{
+  text-align:center;
+}
+
+
+}
+
+</style>
+	<title>Contatos</title>
+</head>
+<body>
+	<ul>
+      <li id="logo"><div><img src="imagem/logopri.png" alt="icone" width="100px"></div></li>
+      <li><a class="active" href="marihair.html">Inicio</a></li>
+      <li><a href="quemsou.html">Quem sou eu</a></li>
+      <li><a href="contatos.html">Contatos</a></li>
+      <li><a href="servicos.html">Serviços</a></li>
+    </ul>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-11">
+     <form>
+    <fieldset>
+      <legend  id="fonte3">Cadastro</legend>
+    <p><label for="nome">Nome:</label><input type="text" name="nome" placeholder="Digite seu nome" size="25"></p>
+
+    <p><label for="email">E-mail:</label><input type="email" name="email" id="email" placeholder="Digite seu e-mail" size="24"></p>
+
+    <p><label for="tel">Telefone:</label><input type="text" name="telefone" placeholder="Digite seu telefone/celular" size="22" maxlength="10"></p>
+
+    <p><label for="text">Qual serviço você procura?:</label><textarea name="message" placeholder="Digite aqui" size="50" maxlength="50"></textarea></p>
+    <label for="files">Envie o modelo aqui:</label>
+    <input type="file" id="files" name="files" multiple><br><br>
+    <input id="enter" type="submit" valeu="Enviar">
+
+     </fieldset>
+     </form><br>
+   </div>
+  </div>
+  </div>
+
+  <div class="rodape">
+      <div class="container">
+        <div class="row">
+      <div class="col-sm-8"><a href="https://maps.app.goo.gl/XTLAaqNmKRPGfhAr9"><img id="icon3"src="imagem/maps2.png" width="8%"></a> <p id="endereço"><b>R. Dr. Antônio Bento, 393 - Santo Amaro, São Paulo - SP, 04750-000</b></p></div>
+
+     <div class="col-sm-2"><a href="https://www.instagram.com/murillo_bps_star/"><img id="icon" src="imagem/insta.png" width="30%"></a><br><h6 id="rod" >Siga a nossa loja!</h6></div>
+     <div class="col-sm-2"><a href="https://www.youtube.com/channel/UC9GtSLeksfK4yuJ_g1lgQbg"><img id="icon2"src="imagem/zap3.png" width="35%"></a><br><h6 id="rod">Fale conosco</h6></div>  
+       
+   </div>
+  </div>
+ </div>
+
+</body>
+</html>
